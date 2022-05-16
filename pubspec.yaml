@@ -1,0 +1,45 @@
+name: qyre_test
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.5.2
+  flutter_svg: ^1.0.3
+  get: ^4.6.1
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_lints: ^1.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svg/
+
+  fonts:
+    - family: Matter
+      fonts:
+        - asset: assets/fonts/Matter-Bold.ttf
+        - asset: assets/fonts/Matter-BoldItalic.ttf
+        - asset: assets/fonts/Matter-Heavy.ttf
+        - asset: assets/fonts/Matter-HeavyItalic.ttf
+        - asset: assets/fonts/Matter-Light.ttf
+        - asset: assets/fonts/Matter-LightItalic.ttf
+        - asset: assets/fonts/Matter-Medium.ttf
+        - asset: assets/fonts/Matter-MediumItalic.ttf
+        - asset: assets/fonts/Matter-Regular.ttf
+        - asset: assets/fonts/Matter-RegularItalic.ttf
+        - asset: assets/fonts/Matter-SemiBold.ttf
+        - asset: assets/fonts/Matter-SemiBoldItalic.ttf
